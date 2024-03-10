@@ -18,7 +18,5 @@ Os testes unitários estão localizados no arquivo  `/src/test/TestMachine.java`
 - Java JDK 8 ou superior
 - JUnit 5
 
-## Licença
-
 
 Para dúvidas ou sugestões, entre em contato com andredasillvaa376@gmail.com.
