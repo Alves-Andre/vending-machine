@@ -1,0 +1,9 @@
+# Configurações específicas do IDE
+.vscode/
+.idea/
+.iml
+.vs/
+
+# Arquivos específicos do projeto
+config.properties
+application.log
