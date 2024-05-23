@@ -1,9 +1,9 @@
 
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
-  args: ['builds', 'submit', '--tag', 'gcr.io/projeto-qa-422823/my-app', '.']
+  args: ['builds', 'submit', '--tag', 'gcr.io/projeto-qa-422823/vending-machine', '.']
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['push', 'gcr.io/projeto-qa-422823/my-app']
+  args: ['push', 'gcr.io/projeto-qa-422823/vending-machine']
 timeout: '1600s'
 images:
-- 'gcr.io/projeto-qa-422823/my-app'
+- 'gcr.io/projeto-qa-422823/vending-machine'
