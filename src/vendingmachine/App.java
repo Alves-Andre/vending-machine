@@ -19,7 +19,6 @@ public class App {
         Produto produto3 = new Produto("Fanta", 5, 10, 3);
         Produto produto4 = new Produto("Guaraná", 5, 10, 4);
 
-        
         List<Produto> produtos = new ArrayList<>();
         produtos.add(produto1);
         produtos.add(produto2);
